@@ -1,5 +1,5 @@
 # reduce_density
-Reduce the density of bidirectional connectivity  matrices
+Reduce the density of undirectional connectivity  matrices
 
 Input:
 mat - input undirectional connectivity matrix (can be symmetrical, upper triangle or lower triangle)
