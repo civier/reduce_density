@@ -2,7 +2,7 @@ function reduced_mat = reduce_density(mat, target_density)
 
         x = mat;
         
-        % nan triangle
+        % nan diagonal
         x(1:size(x,1)+1:end) = nan;
 
         % make symmetrical
