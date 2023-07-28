@@ -1,6 +1,10 @@
 # reduce_density
 Reduce the density of undirectional connectivity  matrices
 
+Usage:
+
+function reduced_mat = reduce_density(mat, target_density)
+
 Input:
 
 mat - input undirectional connectivity matrix (can be symmetrical, upper triangle or lower triangle)
